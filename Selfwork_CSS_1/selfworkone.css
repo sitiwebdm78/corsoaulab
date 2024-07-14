@@ -1,0 +1,51 @@
+/* SELFWORK 1 - CSS */
+/* Applichiamo due font personalizzati, uno per il Titolo e l'altro per il testo */
+
+body{
+   background-image: url('https://picsum.photos/seed/picsum/1650/3000');
+   background-repeat: no-repeat;
+}
+
+*{
+font-family: "Montserrat", sans-serif;
+}
+h1:hover {
+ color: yellow;
+ }
+
+.title1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+    
+
+.title2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #163475;
+    text-align: center;
+    text-shadow: 15px -10px 4px #fca311; 
+ }
+
+ #colorcode{
+   color: white;
+ }
+ 
+ #specifycolor{
+   background-color: #24d0fb ;
+   color:ghostwhite;
+ }
+ p {
+    background-color: #24d0fb ;
+    color:ghostwhite;
+ }
+
+ p:hover {
+   color: blueviolet;
+ }
+
+ .footdiv{
+   background-color: #4e24fb;
+   width: 1648px;
+   height: 365px;
+   position: relative;
+ }
