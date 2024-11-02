@@ -1,0 +1,72 @@
+/* CSS - SELFWORK_2_BOOTSTRAP SUI COMPONENTS */
+
+/* STILI UNIVERSALI DELLE PAGINE */
+
+    *{
+        font-family: "BioRhyme";
+        color: rgb(3, 2, 2);
+}
+
+/* CUSTOM NAVBAR */
+    nav{
+        font-size: 20px;
+    }
+
+    .nav-c_fluid{
+        height: 90px;
+    }
+    
+
+    /* CUSTOM HEADER */
+
+    .bgimg-header{
+        height: 50vh;
+        padding-top: 100px;
+        background-image: url(./2_swbs_mediacomponent/uncollage-di-locandine.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .h1hero{
+        font-size: 40px;
+    }
+
+/* CUSTOM SEZIONE ARTICOLI IN CARDS */
+
+    .h1time{
+        position: sticky;
+        top: 90px;
+        z-index: 2;
+    }
+
+/* CUSTOM FOOTER E ACCORDION */
+
+    .h1faq{
+        color: white;
+        font-size: 70px;
+    }
+
+/* SEZIONE MEDIAQUERY */
+    @media screen and (min-width: 1600px) {
+            .h1hero{
+                font-size: 70px;
+            }
+
+            .h1time{
+                font-size: 45px;
+            }
+            .card-horizontal{
+                flex-direction: row;
+            }
+
+            .card-text{
+                font-size: 22px !important;
+                overflow: auto;
+            }
+            .card img{
+                width: 30%;
+                margin-top: 50px;
+            }
+       
+    }
+
